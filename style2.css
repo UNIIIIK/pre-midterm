@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f3ec;
+}
+
+header {
+    background-color: #fdf5d8;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #D2691E;
+}
+
+.paytone-one-regular {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.highlight {
+    color: rgb(255, 191, 102); 
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a.highlighted {
+    color: #D2691E; 
+}
+
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+   
+    border-radius: 5px;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    font-size: 1em;
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    background-color: white;
+    color: #D2691E;
+    border: none;
+    cursor: pointer;
+}
+
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffcd7c;
+    color: #ffffff;
+}
+
+.intro h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.team {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.team h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #e9c46a;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #fdf5d8;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    flex: 1 1 calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    color: #e9c46a;
+    margin-bottom: 5px;
+}
+
+.team-member h4 {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fdf5d8;
+    color: #333333;
+}
+
+footer p{
+font-weight: bolder;
+
+}
